@@ -1,0 +1,22 @@
+@tailwind base;
+@import './base.css';
+
+@tailwind components;
+@import './components.css';
+
+@tailwind utilities;
+
+@layer components {
+    #__next {
+        
+    }
+    html,
+    body {
+
+    }
+}
+.hidescroll{
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
